@@ -47,7 +47,7 @@ def search():
            
 
         if result   =="":
-            result  =   "抱歉，查無相關條件的選修課程"
+            result  =   "抱歉，查無相關條件的選修課程" 
 
            
 
@@ -55,5 +55,5 @@ def search():
     else:
         return render_template("search.html")
 
-if __name__ == "__main__":
-    app.run()
+#if __name__ == "__main__":
+    #app.run()
